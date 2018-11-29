@@ -1,0 +1,12 @@
+# Compiled source #
+###################
+*.class
+*.o
+*.so
+*.out
+
+# Tests #
+############
+*.txt
+*sandbox*
+
