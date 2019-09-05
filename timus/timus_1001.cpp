@@ -21,15 +21,16 @@ typedef vector<int> vi;
 int32_t main() {
     IOS;
     int n, m, k;
+    vector<int> a;
+    while(cin >> n) {
+        a.push_back(n);
+    }
 
-    multiset<int> taken;
 
-    taken.insert(5);
-    taken.insert(6);
-    taken.insert(5);
+    for(int i = a.size() -1; i >= 0; i--) {
 
-    taken.erase(6);
-    for(auto v: taken)
-        cout << v << endl;
+        printf("%.4f\n", sqrt(a[i]));
+
+    }
     return 0;
 }
