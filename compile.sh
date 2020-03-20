@@ -1,0 +1,1 @@
+clang++ -std=gnu++14 -O2 $1 -o a.out && time ./a.out < input.txt > output.txt && rm a.out
